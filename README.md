@@ -1,4 +1,4 @@
-# Reverse Engineering of Rocket Chip ![](https://github.com/merledu/Reverse-Engineering-of-Rocket-Chip/blob/master/Different%20Modules%20Understanding%20Links%20of%20rocket%20chip/logo%20reverse%20engineering.png)
+# Reverse Engineering of Rocket Chip ![](Different%20Modules%20Understanding%20Links%20of%20rocket%20chip/logo%20reverse%20engineering.png)
 This repository contains the methodolgy of Reverse Engineering the Rocket Chip. For more information on Reverse engineering of Rocket Chip, please consult our MERL-UIT technical team  at <br/>
 https://www.merledupk.org/ .
 
@@ -26,12 +26,12 @@ https://www.merledupk.org/ .
 # Rocket Chip Overview
 Detailed diagram of Rocket Chip is shown below
  
- ![1](https://github.com/merledu/Reverse-Engineering-of-Rocket-Chip/blob/master/Different%20Modules%20Understanding%20Links%20of%20rocket%20chip/Rocket%20Chip%20SOC%20Block%20Diagram.PNG)
+ ![1](Different%20Modules%20Understanding%20Links%20of%20rocket%20chip/Rocket%20Chip%20SOC%20Block%20Diagram.PNG)
 
  
 
 # Rocket Chip Micro Architecture
-![](https://github.com/merledu/Reverse-Engineering-of-Rocket-Chip/blob/master/Different%20Modules%20Understanding%20Links%20of%20rocket%20chip/rocket%20chip%20micro%20architecture.JPG)
+![](Different%20Modules%20Understanding%20Links%20of%20rocket%20chip/rocket%20chip%20micro%20architecture.JPG)
 
 # Rocket Chip Code Complexity
 * The complexity of code of Rocket-chip is high, because it contains 328 source files of scala in 23 directories, and 33,427 total lines of scala code.
@@ -41,14 +41,14 @@ Detailed diagram of Rocket Chip is shown below
 # Rocket Core Scala Files
 This table will gives the complete detail of total number of scala files and their length of code in Rocket Core.
 
-![](https://github.com/merledu/Reverse-Engineering-of-Rocket-Chip/blob/master/Different%20Modules%20Understanding%20Links%20of%20rocket%20chip/core%20level%20lines%20of%20code%20table.PNG)
+![](Different%20Modules%20Understanding%20Links%20of%20rocket%20chip/core%20level%20lines%20of%20code%20table.PNG)
 # Reverse Engineering of Rocket Chip
 
 | Rocket chip is a chip generator that allows you to set up different configurations and these configurations are specified through Chisel parameters. Reverse Engineering of Rocket Chip journey starts from (Micro Electronic Research Lab) MERL which is working in the field of RISC V Processor development and Research. The purpose of Reverse Engineering of Rocket Chip is to get aware of the modules used in rocket chip and make Micro Architecture Specification (MAS) documentation as Rocket chip doesn’t have any MAS documentation available yet. Another main purpose is to increase Rocket chip code reusability so every programmer can easily understand its code and manipulate it according to its desired configuration by changing Chisel Parameters. We decode basic modules of rocket chip by taking an understanding of its code line by line with the help of Scala and Chisel expertise. We convert these modules code understanding into flow charts and start making Micro Architecture Specification (MAS) documentation. We make flow charts for different modules of Rocket Chip. After completion of flow charts, we make block diagrams of Rocket Chip modules according to its configuration pin in and out.  |
 | :--- |
 
 # Micro Architecture Specification (MAS) Document Rocket Chip
-![](https://github.com/merledu/Reverse-Engineering-of-Rocket-Chip/blob/master/Different%20Modules%20Understanding%20Links%20of%20rocket%20chip/MAS%20Document%20of%20Rocket%20Chip.PNG)</br>
+![](Different%20Modules%20Understanding%20Links%20of%20rocket%20chip/MAS%20Document%20of%20Rocket%20Chip.PNG)</br>
 * This MAS Document provides in depth understanding of Modules of Rocket-Chip SoC.
 * Explanation of Modules is achieved by means of Block Diagrams, Class Diagrams, Flowcharts, and explanation of all the keywords found in the code.
 *  This MAS Document is essential for those who have basic knowledge of Scala, CHISEL and SoC hardware.In explanation only the name of keywords is used but their definition is mentioned in the Appendix – Scala & CHISEL keywords.
@@ -66,7 +66,7 @@ This table will gives the complete detail of total number of scala files and the
 * We convert these modules code understanding into flow charts and start making Micro Architecture Specification (MAS) documentation.
 * We make flow charts for different modules of Rocket Chip. After completion of flow charts, we make block diagrams of Rocket Chip modules according to its configuration pin in and out
 # Aghaz(آغاز) SoC The Beginning
-![](https://github.com/merledu/Reverse-Engineering-of-Rocket-Chip/blob/master/Different%20Modules%20Understanding%20Links%20of%20rocket%20chip/Aghaz%20SOC.PNG)
+![](Different%20Modules%20Understanding%20Links%20of%20rocket%20chip/Aghaz%20SOC.PNG)
 
 # Specifications of Aghaz(آغاز) SoC
 | Specs of Aghaz(آغاز) |
@@ -81,7 +81,7 @@ This table will gives the complete detail of total number of scala files and the
 |  With the help of MAS Document, which contains in-depth knowledge of all the Modules of Rocket-Chip generated by Rocket-Chip SoC Generator |
 | :----- |
 # Blocks of Aghaz(آغاز) Core
-![](https://github.com/merledu/Reverse-Engineering-of-Rocket-Chip/blob/master/Different%20Modules%20Understanding%20Links%20of%20rocket%20chip/Aghaz%20Core.PNG)
+![](Different%20Modules%20Understanding%20Links%20of%20rocket%20chip/Aghaz%20Core.PNG)
 
 # Blocks of Aghaz(آغاز) Tile
 _Rocket-Tile of Aghaz SoC contains_
@@ -89,7 +89,7 @@ _Rocket-Tile of Aghaz SoC contains_
 * Branch Target Buffer 
 * L1 Icache
 * DCache of 64-KB </br></br>
-![](https://github.com/merledu/Reverse-Engineering-of-Rocket-Chip/blob/master/Different%20Modules%20Understanding%20Links%20of%20rocket%20chip/Aghaz%20Tile.PNG)
+![](Different%20Modules%20Understanding%20Links%20of%20rocket%20chip/Aghaz%20Tile.PNG)
 ![]()
 
 ## References
